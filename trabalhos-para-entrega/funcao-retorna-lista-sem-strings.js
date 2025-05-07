@@ -1,18 +1,15 @@
 let lista = [1, "Teste", 5, "4856"];
 
 function retornarListaComApenasInteiros(converteLista) {
-
     let novaLista = [];
 
     for (let i = 0; i < converteLista.length; i++) {
-
         if (typeof converteLista[i] === "number") {
             novaLista.push(converteLista[i]);
         }
     }
 
     return novaLista;
-
 }
 
 console.log("Iniciando execucao ===================");
