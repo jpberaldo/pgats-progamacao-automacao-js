@@ -15,5 +15,3 @@ function retornarListaComApenasInteiros(converteLista) {
 console.log("Iniciando execucao ===================");
 console.log("Lista original: ", lista); //Retornar a lista original: 1, "Teste", 5, "4856"
 console.log("Nova lista, sem as strings: ", retornarListaComApenasInteiros(lista)); // Retornar a lista apenas com os inteiros: 1, 5
-
-
