@@ -1,0 +1,21 @@
+{
+  "name": "pgats-programacao",
+  "version": "1.0.0",
+  "main": "exercicio-calculadora-de-racao-diaria.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpberaldo/pgats-progamacao-automacao-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpberaldo/pgats-progamacao-automacao-js/issues"
+  },
+  "homepage": "https://github.com/jpberaldo/pgats-progamacao-automacao-js#readme",
+  "description": ""
+}
