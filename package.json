@@ -17,5 +17,8 @@
     "url": "https://github.com/jpberaldo/pgats-progamacao-automacao-js/issues"
   },
   "homepage": "https://github.com/jpberaldo/pgats-progamacao-automacao-js#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.2.2"
+  }
 }
