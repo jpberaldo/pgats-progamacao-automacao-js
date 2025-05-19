@@ -1,5 +1,6 @@
 
 ### VS Code / Projeto para estudos PGATS - Programacao JS###
+.vscode
 modularizacao-export.js
 modularizacao-import.js
 node_modules
