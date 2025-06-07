@@ -1,0 +1,26 @@
+name: 'Execução de pipeline / trabalho final para disciplina de Integração Continua'
+
+on:
+    workflow_dispatch:
+
+jobs:
+  testes:
+    #maquina que vai rodar
+    runs-on: ubuntu-latest
+
+    #passos do build
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - name: Instalando Yarn
+        run: npm install -g yarn
+
+      - name: Instalando dependências
+        run: yarn
+
+      - name: Executando os testes
+        run: npx mocha testes/testes-n1.js
