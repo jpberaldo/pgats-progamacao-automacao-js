@@ -1,4 +1,4 @@
-name: 'Execução de pipeline / trabalho final para disciplina de Integração Continua'
+name: 'N1'
 
 on:
     workflow_dispatch:
